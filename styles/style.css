@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav {
+    background: #3e8989;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 0;
+}
+
+.header-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-list-link {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-list-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.heade-nav-form {
+    display: flex;
+}
+
+.header-nav-input {
+    border-radius: 20px 0 0 20px;
+    max-width: 216px;
+    width: 100%;
+    height: 35px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+}
+
+.header-nav-input::placeholder {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+}
+
+.header-nav-button {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    width: 74px;
+    height: 35px;
+    border: none;
+    background: #295E5E;
+    border-radius: 0 20px 20px 0;
+}
+
+.header-content {
+    background: url(../images/header-img.jpg) no-repeat center /cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-titile {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 80px;
+    color: #fff;
+}
+
+.header-text {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-link {
+    border-radius: 30px;
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    background: #b4436c;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link:hover {
+    background: white;
+    color: purple;
+}
+
+.about-us-box {
+    display: flex;
+    gap: 20px;
+}
+
+.right-box-text {
+    max-width: 545px;
+    width: 100%;
+}
+
+.right-box-text-first {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.right-box-text-second {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.card-catalog {
+    max-width: 263px;
+    width: 100%;
+}
+
+.img-catalog {
+    background: #efefef;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-title-catalog {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-title-catalog:hover {
+    color: #b4436c;
+}
+
+.box-catalog {
+    display: flex;
+    gap: 20px;
+}
+
+.contacts-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-left-box {
+    max-width: 555px;
+    width: 100%;
+}
+
+.contacts-text {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.contacts-right-box {
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-link {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer {
+    background: #3e8989;
+    padding: 40px 0 15px;
+    margin-top: 100px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.footer-list-link {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-text {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-text-box {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
